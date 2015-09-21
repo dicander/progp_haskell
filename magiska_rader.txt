@@ -1,0 +1,4 @@
+Bygg filen som heter file_word_count_better.hs, kalla binären för samma sak
+minus .hs och om det inte var några kompileringsfel - kör den...
+
+ghc --make file_word_count_better && ./file_word_count_better
