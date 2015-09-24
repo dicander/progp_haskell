@@ -6,7 +6,6 @@ main = do {
   ih <- openFile (head args)
   ReadMode;
   input <- hGetContents ih;
-  putStrLn(show (length
-  (words input)));
+  putStrLn $show $ length $ words input;
   hClose(ih);
 }

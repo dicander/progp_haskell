@@ -17,4 +17,4 @@ formatOutput = unlines . map
  (\(str, i) -> str ++ "\t" ++ show i)
 
 main = interact (formatOutput .
- (take 10) . rankWords)
+ (take 20) . rankWords)
